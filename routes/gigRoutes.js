@@ -1,5 +1,5 @@
 const express = require('express');
-const gigController = require('../controllers/gigController')
+const gigController = require('../controllers/gigs.js')
 const router = express.Router();
 
 router.get('/', gigController.gig_index)
